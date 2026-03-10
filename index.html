@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Everything Is Not For You</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f1115;
+      color: #ffffff;
+      line-height: 1.7;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(rgba(10,10,10,0.75), rgba(10,10,10,0.85)),
+        url('https://images.pexels.com/photos/842339/pexels-photo-842339.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover no-repeat;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+
+    .hero p {
+      max-width: 750px;
+      margin: 0 auto 30px;
+      font-size: 1.15rem;
+      color: #d6d6d6;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #ffffff;
+      color: #111;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #dcdcdc;
+      transform: translateY(-2px);
+    }
+
+    section {
+      padding: 80px 0;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    .section-text {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      color: #cfcfcf;
+      font-size: 1.05rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background: #171a21;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      font-size: 1.2rem;
+    }
+
+    .card p {
+      color: #c9c9c9;
+      font-size: 0.98rem;
+    }
+
+    .quote {
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
+      font-size: 1.35rem;
+      color: #f0f0f0;
+      font-style: italic;
+    }
+
+    .author-box {
+      max-width: 750px;
+      margin: auto;
+      background: #171a21;
+      padding: 30px;
+      border-radius: 14px;
+      text-align: center;
+    }
+
+    .author-box p {
+      color: #d0d0d0;
+    }
+
+    .cta {
+      text-align: center;
+      background: #14171d;
+    }
+
+    .cta p {
+      max-width: 700px;
+      margin: 15px auto 30px;
+      color: #d1d1d1;
+      font-size: 1.05rem;
+    }
+
+    footer {
+      padding: 30px 0;
+      text-align: center;
+      color: #8d8d8d;
+      font-size: 0.9rem;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      .section-title {
+        font-size: 1.7rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Everything Is Not For You</h1>
+      <p>
+        The truth about life most people realize too late.
+        Stop wasting years chasing things that were never meant for you.
+      </p>
+      <a href="https://gumroad.com/checkout" class="btn">Get the Book</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Why This Book Matters</h2>
+      <p class="section-text">
+        Most people believe they should keep chasing everything they want.
+        More effort. More pressure. More attachment.
+        But sometimes, the real wisdom is understanding that not everything is meant for you.
+        This book helps you see life with more clarity, less confusion, and better direction.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">What You Will Learn</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Stop Chasing the Wrong Things</h3>
+          <p>
+            Learn how to recognize when you're forcing something that was never right for you.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Gain Mental Clarity</h3>
+          <p>
+            Understand why letting go is sometimes the smartest decision you can make.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Choose Better Paths</h3>
+          <p>
+            Start focusing only on what truly aligns with your life and your future.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <p class="quote">
+        “Not everything you want is meant for you — and understanding that can change your life.”
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Who This Book Is For</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>You feel stuck</h3>
+          <p>
+            You keep trying, but life still feels heavy and unclear.
+          </p>
+        </div>
+        <div class="card">
+          <h3>You overchase</h3>
+          <p>
+            You hold onto goals, people, or outcomes longer than you should.
+          </p>
+        </div>
+        <div class="card">
+          <h3>You want clarity</h3>
+          <p>
+            You need a simpler and more honest way to understand your path.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="author-box">
+        <h2 class="section-title">A Message Behind the Book</h2>
+        <p>
+          This is not just another motivational ebook.
+          It is a mindset shift.
+          A reminder that peace begins when you stop forcing what does not belong to you.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h2 class="section-title">Ready to See Life Differently?</h2>
+      <p>
+        Read the book and start letting go of what was never meant for you.
+      </p>
+      <a href="https://gumroad.com/checkout" class="btn">Buy Now on Gumroad</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      © 2026 Everything Is Not For You. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
